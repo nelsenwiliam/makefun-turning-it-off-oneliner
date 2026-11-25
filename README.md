@@ -6,6 +6,10 @@
 
 One funny single-line reply from a hopeless tech support agent to a desperate customer: the classic "turn it off and on again", twisted so step two is the same as step one. Pure Python standard library; `main.py` writes the line to `entry.txt`.
 
+> Good news: step one is turning it off and on again. Bad news: step two is also turning it off and on again.
+
+107 characters, one line, no tricks — the joke is the agent's cheerful uselessness, never the customer.
+
 ## Run it
 
 ```sh

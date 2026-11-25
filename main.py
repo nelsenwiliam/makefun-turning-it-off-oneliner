@@ -39,6 +39,9 @@ def _validate(line):
         )
     if not line.strip():
         raise ValueError("entry must not be only whitespace")
+    if any(ord(ch) < 32 for ch in line):
+        # A single line: no newline or other control character inside it.
+        raise ValueError("entry must be one line with no control characters")
     line.encode("utf-8")
 
 
